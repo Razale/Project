@@ -1,0 +1,31 @@
+html, body { height: 100%; }
+
+body { background-color: #e6dacf; background-image: url('/images/bg.png'); background-position: top center; background-repeat: repeat-y; font-family: "Trebuchet MS", Arial, san-serif; font-size: 14px; margin: 0; padding: 0; text-align: center; }
+
+a { color: #000; }
+a:hover { background: #000; color: #e6dacf; }
+
+div#wrapper { min-height: 100%; }
+* html div#wrapper { height: 100%; }
+
+div#header { background: url('/images/bgHeader.png'); height: 100px; padding: 8px 0 0 0; }
+div#header div { margin: 0 auto; position: relative; width: 800px; }
+div#header h1 { left: 0; margin: 0; position: absolute; }
+div#header h1 { background: url('/images/logo.png') no-repeat; display: block; height: 0; margin: 0 auto; padding: 92px 0 0 0; overflow: hidden; width: 319px; }
+
+ul#nav { float: right; list-style: none; margin: 0; padding: 69px 0 0 0; }
+ul#nav li { background: #e6dacf; border: solid #000; border-width: 2px 2px 0 2px; float: left; margin: 0 0 0 2px; }
+ul#nav a { display: block; padding: 3px 6px 0 6px; text-decoration: none; }
+ul#nav a:hover { display: block; padding: 3px 6px 7px 6px; }
+ul#nav a.current { padding-bottom: 8px; }
+ul#nav a.current:hover { background: #e6dacf; color: #000; cursor: default; }
+
+div#content{ margin: 0 auto; padding: 20px 0; text-align: left; width: 720px; height: 300px}
+div#content img { border: 10px solid #000; float: right; margin: 18px 0 0 20px; }
+div#content h2 { border: solid #999; border-width: 0 0 5px 0; font-size: 28px; margin: 0; padding: 0 0 10px 0; }
+div#content p { margin: 0; padding: 4px 6px 10px 0; }
+
+
+div#clearfooter { height: 110px; }
+
+div#footer { background: url('/images/bgFooter.png'); height: 110px; margin: -110px auto 0 auto; }

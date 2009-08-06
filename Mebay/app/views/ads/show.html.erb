@@ -1,0 +1,19 @@
+<p>
+  <b>Name:</b><%= @ad.name %>
+ </p>
+<p>
+  <b>Description:</b><%= @ad.description %>
+</p>
+<p>
+  <b>Price:</b><%= @ad.price %>
+</p>
+<p>
+  <b>Seller Id:</b><%= @ad.seller_id %>
+</p>
+<p>
+  <b>Email:</b><%= @ad.email %>
+</p>
+<p>
+  <img src="<%= @ad.img_url %>"/>
+</p>
+<a href="/ads/<%= @ad.id %>/edit">Edit</a>
